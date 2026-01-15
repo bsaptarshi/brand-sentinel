@@ -1,0 +1,25 @@
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Python virtual environment
+.venv/
+backend/.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variables files
+.env
+*.env
+.flaskenv
+
+# Ignore Node.js dependencies and Next.js build outputs
+node_modules/
+.next/
+
+# Other common ignores
+*.log
+*.sqlite3
+.DS_Store
